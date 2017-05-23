@@ -6,7 +6,7 @@ if you not use 5th argument in MemcacheTags::add  function behaves like a parent
 
 MemcacheTags::poisontags can poison one or more tags
 
-***EXAMPLE***
+***NOTES***
 
 $mc = new  MemcacheTags();
 $mc->add("alice@user.com", ['password'=> 'secret',     'policy' => ['EditAllow', 'AddAllow']], false, 3000, ['managers', 'dealers']);
